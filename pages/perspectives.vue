@@ -1,0 +1,39 @@
+<script setup>
+const posts = ref([
+  {
+    id: 1,
+    title: "Minimalism in Furniture History",
+    image: "/images/history_of_minimalism/history_of_minimailsim_hero.webp",
+    link: "/blog/minimalism-furniture-history",
+    content:
+      "Explore the evolution of minimalist design in furniture, tracing its historical roots.",
+  },
+  {
+    id: 2,
+    title: "Principles of Minimalist Design",
+    image: "/images/history_of_minimalism/history_of_minimailsim_hero.webp",
+    link: "/blog/principles-minimalist-design",
+    content:
+      "A deep dive into the core principles that define minimalist furniture design.",
+  },
+]);
+</script>
+<template>
+    
+  <div >
+    <NuxtLink to="/" class="">back to home</NuxtLink>
+      <div v-for="post in posts" :key="post.id" >
+      
+        <div class="blog-post border-black border-2 mx-32 flex justify-evenly p-8 my-12">
+          <div>
+            <h1 class="font-bold text-2xl">{{ post.title }}</h1>
+            <img :src="post.image" :alt="post.title" width="500px" />
+          </div>
+          <div>
+            <p class="mb-8">{{ post.content }}</p>
+            <NuxtLink :to="post.link" class="hover:green-200 bg-black text-white p-4">Read more</NuxtLink>
+          </div>
+        </div>
+      </div>
+  </div>
+</template>

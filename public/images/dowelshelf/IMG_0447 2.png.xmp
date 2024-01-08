@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 4.4.0-Exiv2">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:exif="http://ns.adobe.com/exif/1.0/"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:darktable="http://darktable.sf.net/"
+   exif:DateTimeOriginal="2021:04:19 16:09:28"
+   xmp:Rating="5"
+   xmpMM:DerivedFrom="IMG_0447 2.png"
+   darktable:import_timestamp="1638753704"
+   darktable:change_timestamp="-1"
+   darktable:export_timestamp="-1"
+   darktable:print_timestamp="-1"
+   darktable:xmp_version="4"
+   darktable:raw_params="0"
+   darktable:auto_presets_applied="1"
+   darktable:history_end="5"
+   darktable:iop_order_version="1"
+   darktable:history_auto_hash="f468202fa5ae038cd5448cf33cbc0ac5"
+   darktable:history_current_hash="f468202fa5ae038cd5448cf33cbc0ac5">
+   <darktable:masks_history>
+    <rdf:Seq/>
+   </darktable:masks_history>
+   <darktable:history>
+    <rdf:Seq>
+     <rdf:li
+      darktable:num="0"
+      darktable:operation="colorin"
+      darktable:enabled="1"
+      darktable:modversion="6"
+      darktable:params="gz05eJzjZICAZUDMy4AAyxhQQQMDI5g+wKqU+rEeQTNA9X0wZIPz0fWxgRjT5zIyJCDRQMBBhD6FJoh6GA0DhPQ1QO1pmE68PpB7Gvqg+vqI18cKpB0mQdTDaGL08YH8B1WvQII+FSB9QAAaDwKIeAghwn8MU6H2TEW1DwZYcOhTaIC6s4H4+OMG0gug4b+AQLyvSl2bCNPHBaQdlCD+etCN0MeC1z7cAJc7RQnoY8WizxgMPtvj08dOpjsZsOhbCQ8X3ABbuPyHAnz6GJH0LXN0A9MgPQC7JIQj"
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:blendop_version="10"
+      darktable:blendop_params="gz14eJxjYIAACQYYOOHEgAYY0QVwggZ7CB6pfNoAAEkgGQQ="/>
+     <rdf:li
+      darktable:num="1"
+      darktable:operation="colorout"
+      darktable:enabled="1"
+      darktable:modversion="5"
+      darktable:params="gz03eJxjZACDC/NfBIj9Z2fYoMiAChjR+A0qvKkf6xF8ViBmAWJmIAQBLqh4DlTdr172TBDtzgDBDFD1nVC9IMyJJMfAxMSADzxYdJmJIQHBh6lGtceTYYIqxH6QXf8ZGRlkoerkoPQCqLwClI/u7w99EPNUoHxVKK0GpQ9A9R8QUgLTmlBxB2EIXxvVuAulZ8Hh+4GboY4Z5P6GwxD6wtZaMM3AuQtMw8yDmQPTX3kdrP8BjF+Fxpd+CuYbsGIPtguicmB5B2bs8gwArxFHUQ=="
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:blendop_version="10"
+      darktable:blendop_params="gz14eJxjYIAACQYYOOHEgAYY0QVwggZ7CB6pfNoAAEkgGQQ="/>
+     <rdf:li
+      darktable:num="2"
+      darktable:operation="gamma"
+      darktable:enabled="1"
+      darktable:modversion="1"
+      darktable:params="0000000000000000"
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:blendop_version="10"
+      darktable:blendop_params="gz14eJxjYIAACQYYOOHEgAYY0QVwggZ7CB6pfNoAAEkgGQQ="/>
+     <rdf:li
+      darktable:num="3"
+      darktable:operation="sharpen"
+      darktable:enabled="1"
+      darktable:modversion="1"
+      darktable:params="000000400000003f0000003f"
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:blendop_version="10"
+      darktable:blendop_params="gz13eJxjYGBgYAJiCQYYOOHEgAYY0QVwggZ7CB6pfNoAAExgGQY="/>
+     <rdf:li
+      darktable:num="4"
+      darktable:operation="flip"
+      darktable:enabled="1"
+      darktable:modversion="2"
+      darktable:params="ffffffff"
+      darktable:multi_name=""
+      darktable:multi_priority="0"
+      darktable:blendop_version="10"
+      darktable:blendop_params="gz14eJxjYIAACQYYOOHEgAYY0QVwggZ7CB6pfNoAAEkgGQQ="/>
+    </rdf:Seq>
+   </darktable:history>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
