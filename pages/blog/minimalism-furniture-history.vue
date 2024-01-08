@@ -41,6 +41,7 @@
     <p class="w-3/4 text-xl m-auto">The journey of minimalism in furniture design reflects a continuous search for harmony between form and function. From its early 20th-century origins to its current focus on sustainability, minimalism has remained a powerful and relevant force in the design world.  </p>
     <p class="w-4/5 text-xl m-auto">As we move forward, it continues to evolve, adapting to new challenges and reflecting the changing values and lifestyles of society. </p>
     </section>
+    <TheSmallProductCarousel/>
   </div>
 </template>
 <style>
