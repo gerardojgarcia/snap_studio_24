@@ -13,9 +13,9 @@ const posts = ref([
 ]);
 </script>
 <template>
-  <div class="relative">
+  <div class="relative bg-white">
 
-    <div class="fixed bg-white w-full top-0" >
+    <div class="fixed bg-white w-full top-0 z-10" >
         <h1 class="text-6xl">Perspectives</h1>
         <header class="flex items-center justify-evenly">
           <NuxtLink to="/"

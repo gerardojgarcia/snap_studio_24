@@ -11,7 +11,7 @@ function toggleDropdown() {
       <NuxtLink to="/" class="hover:text-red-200"
         ><nuxt-img src="favicon.png" width="75px"
       /></NuxtLink>
-      <button to="/" class="hover:text-red-200" @click="toggleDropdown">menu</button>
+
       
       <div
         class="absolute flex flex-col bg-white w-52 p-8 -translate-y-24 -translate-x-96 duration-300"

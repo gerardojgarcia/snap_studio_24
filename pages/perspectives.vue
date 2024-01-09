@@ -11,7 +11,7 @@ const posts = ref([
   {
     id: 2,
     title: "Principles of Minimalist Design",
-    image: "/images/history_of_minimalism/history_of_minimailsim_hero.webp",
+    image: "/images/principles_of_design/blog-post-1.webp",
     link: "/blog/principles-minimalist-design",
     content:
       "A deep dive into the core principles that define minimalist furniture design.",
