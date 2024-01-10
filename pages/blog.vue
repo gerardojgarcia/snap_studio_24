@@ -7,9 +7,10 @@ const posts = ref([
   },
   {
     id: 2,
-    title: "Minamalism in Furniture",
+    title: "Minimalism in Furniture",
     link: "/blog/minimalism-furniture-history",
   },
+  
 ]);
 </script>
 <template>

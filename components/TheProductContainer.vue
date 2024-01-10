@@ -5,47 +5,48 @@
     <div class="grid grid-cols-3 gap-4">
       <!-- Column 1 -->
       <div class="bg-gray-200 p-4 overflow-hidden ">
-        <nuxt-img src="/images/wall_unit.webp" class="hover:scale-125 duration-300 " />
+        <nuxt-img src="/images/wall_unit.webp" class="hover:scale-125 duration-300 object-cover h-full w-full " format="webp" height="600px" width="500px" />
       </div>
 
       <!-- Column 2 -->
-      <div class="bg-gray-200 p-4 overflow-hidden">
-        <nuxt-img src="/images/home_goods.webp" class="hover:scale-125 duration-300" />
+      <div class="bg-gray-200 p-4 overflow-hidden"> 
+        <nuxt-img src="/images/home_goods.webp" class="hover:scale-125 duration-300 object-cover h-full w-full" format="webp" height="600px" width="500px"  />
       </div>
 
       <!-- Column 3 -->
       <div class="bg-gray-200 p-4 overflow-hidden">
-        <nuxt-img src="/images/shelf_system.webp" class="hover:scale-125 duration-300" />
+        <nuxt-img src="/images/shelf_system.webp" class="hover:scale-125 duration-300 object-cover h-full w-full" format="webp" height="600px" width="500px"/>
       </div>
 
       <!-- Column  4-->
       <div class="bg-gray-200 p-4 overflow-hidden">
         <nuxt-img
           src="/images/bowl_set1.webp"
-          class="hover:scale-125 duration-300"
+          class="hover:scale-125 duration-300 object-cover h-full w-full"
+          format="webp" height="600px" width="500px"
         />
       </div>
 
       <!-- Column 6 -->
       <div class="bg-gray-200 p-4 overflow-hidden">
-        <nuxt-img src="/images/snapchair2_2.webp" class="hover:scale-125 duration-300" />
+        <nuxt-img src="/images/snapchair2_2.webp" class="hover:scale-125 duration-300 object-cover h-full w-full" format="webp" height="600px" width="500px"/>
       </div>
 
       <!-- Column 7 -->
       <div class="bg-gray-200 p-4 overflow-hidden">
-        <nuxt-img src="/images/dinnerset.webp" class="hover:scale-125 duration-300" />
+        <nuxt-img src="/images/dinnerset.webp" class="hover:scale-125 duration-300 object-cover h-full w-full" format="webp" height="600px" width="500px"/>
       </div>
       <!-- Column 8 -->
       <div class="bg-gray-200 p-4 overflow-hidden">
-        <nuxt-img src="/images/wall_unit_2.webp" class="hover:scale-125 duration-300" />
+        <nuxt-img src="/images/wall_unit_2.webp" class="hover:scale-125 duration-300 object-cover h-full w-full" format="webp" height="600px" width="500px"/>
       </div>
       <!-- Column 9 -->
       <div class="bg-gray-200 p-4 overflow-hidden">
-        <nuxt-img src="/images/home_set_1.webp" class="hover:scale-125 duration-300" />
+        <nuxt-img src="/images/home_set_1.webp" class="hover:scale-125 duration-300 object-cover h-full w-full" format="webp" height="600px" width="500px"/>
       </div>
       <!-- Column 10  -->
       <div class="bg-gray-200 p-4 overflow-hidden">
-        <nuxt-img src="/images/table_console.webp" class="hover:scale-125 duration-300" />
+        <nuxt-img src="/images/table_console.webp" class="hover:scale-125 duration-300 object-cover h-full w-full" format="webp" height="600px" width="500px"/>
       </div>
     </div>
   </div>

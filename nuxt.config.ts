@@ -3,7 +3,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   modules: ['@nuxtjs/tailwindcss', '@nuxt/image',
-  'nuxt-gtag'],
+  'nuxt-gtag',
+  '@nuxtjs/sitemap',],
 
   app: {
     head: {
@@ -32,6 +33,19 @@ export default defineNuxtConfig({
 },
     gtag: {
         id: 'G-923HZRL5MF'
+    },
+
+
+    sitemap: {
+    hostname: 'https://snapstudio.shop',
+    gzip: true,
+    routes: [
+      'https://snapstudio.shop/',
+      'https://snapstudio.shop/perspectives.vue',
+      'https://snapstudio.shop/blog.vue',
+      'https://snapstudio.shop//blog/minimalism-furniture-history',
+      'https://snapstudio.shop/blog/principles-minimalist-design',
+    ]      
     }
 
 

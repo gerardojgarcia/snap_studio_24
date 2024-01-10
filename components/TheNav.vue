@@ -9,7 +9,7 @@ function toggleDropdown() {
   <header class="flex w-full">
     <nav class="flex justify-evenly items-center w-full relative">
       <NuxtLink to="/" class="hover:text-red-200"
-        ><nuxt-img src="favicon.png" width="75px"
+        ><nuxt-img src="favicon.png" width="50px" height="50px" alt="snapstudio logo"
       /></NuxtLink>
 
       

@@ -22,11 +22,14 @@
     <p class="w-3/4 text-xl m-auto">Minimalism in furniture can be traced back to the early 20th century, coinciding with the modernist movement in art and architecture. The Bauhaus school in Germany, founded by Walter Gropius in 1919, played a pivotal role in this regard. </p>
     <p class="w-3/4 text-xl m-auto">Emphasizing functionality and simplicity, Bauhaus designers like Marcel Breuer and Ludwig Mies van der Rohe introduced furniture that was stark in its aesthetic yet highly practical. This period saw the emergence of steel, glass, and concrete as favored materials, reflecting the modernist ethos of "form follows function."</p>
 
-    <NuxtImg src="/images/history_of_minimalism/blog-img-1.webp" preload width="900px" class="m-auto py-16"/>
+   
 
-    <section class="py-12">
-      <h3 class="text-4xl font-bold mb-8" >Post-War Minimalism and Japanese Influence</h3>
-      <p class="w-3/4 text-xl m-auto">The post-World War II era saw a significant evolution of minimalism in furniture design, heavily influenced by Japanese aesthetics. The Japanese traditional concept of 'Ma,' emphasizing negative space and simplicity, resonated with Western designers. Iconic pieces from this era, such as the Eames Lounge Chair and Isamu Noguchi’s coffee table, reflect a blend of minimalism and organic shapes, offering comfort without excessive ornamentation.</p>
+    <section class="py-12 flex">
+      <div>
+        <h3 class="text-4xl font-bold mb-8" >Post-War Minimalism and Japanese Influence</h3>
+        <p class="w-3/4 text-xl m-auto">The post-World War II era saw a significant evolution of minimalism in furniture design, heavily influenced by Japanese aesthetics. The Japanese traditional concept of 'Ma,' emphasizing negative space and simplicity, resonated with Western designers. Iconic pieces from this era, such as the Eames Lounge Chair and Isamu Noguchi’s coffee table, reflect a blend of minimalism and organic shapes, offering comfort without excessive ornamentation.</p>
+      </div>
+      <NuxtImg src="/images/history_of_minimalism/blog-img-1.webp" preload width="600px" class="m-auto py-16"/>
     </section>
 
     <h4 class="text-4xl font-bold mb-8" >Minimalism in the Late 20th Century</h4>
