@@ -16,6 +16,14 @@ const posts = ref([
     content:
       "A deep dive into the core principles that define minimalist furniture design.",
   },
+  {
+    id: 3,
+    title: "Eco-Friendly Woods for Modern Design",
+    image: "/images/plywood_room2.webp",
+    link: "/blog/eco-friendly-woods-minimal-design",
+    content:
+      "Exploring sustainable wood options for minimalist furniture.",
+  },
 ]);
 </script>
 <template>
@@ -27,7 +35,7 @@ const posts = ref([
         <div class="blog-post border-black border-2 mx-32 flex justify-evenly p-8 my-12">
           <div>
             <h1 class="font-bold text-2xl">{{ post.title }}</h1>
-            <img :src="post.image" :alt="post.title" width="500px" />
+            <img :src="post.image" :alt="post.title" width="500px"  />
           </div>
           <div>
             <p class="mb-8">{{ post.content }}</p>

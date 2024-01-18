@@ -10,6 +10,11 @@ const posts = ref([
     title: "Minimalism in Furniture",
     link: "/blog/minimalism-furniture-history",
   },
+  {
+    id: 3,
+    title: "Eco-Friendly Woods for Modern Design",
+    link: "/blog/eco-friendly-woods-minimal-design",
+  },
   
 ]);
 </script>
