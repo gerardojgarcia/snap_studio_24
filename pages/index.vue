@@ -1,10 +1,10 @@
 <script setup></script>
 <template>
   <div
-    class="grid grid-cols-1 grid-rows-3 m-0 h-screen"
+    class=" md:grid grid-cols-1 grid-rows-3 m-0 h-screen"
     style="grid-template-rows: 20vh auto auto"
   >
-    <TheHero class="row-span-1 -translate-y-12" />
+    <TheHero class="row-span-1 md:-translate-y-12" />
     <TheProductContainer class="row-span-2" />
     <TheNav class="row-span-3" />
   </div>

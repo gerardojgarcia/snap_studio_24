@@ -53,7 +53,7 @@
 
    
 
-    <section class="py-12 flex">
+    <section class="py-12 flex m-auto">
       <div>
         <h3 class="text-4xl font-bold mb-8" >Top Eco-Friendly Woods for Modern Design</h3>
 
