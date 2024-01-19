@@ -43,7 +43,7 @@ export default defineNuxtConfig({
       'https://snapstudio.shop/',
       'https://snapstudio.shop/perspectives.vue',
       'https://snapstudio.shop/blog.vue',
-      'https://snapstudio.shop//blog/minimalism-furniture-history',
+      'https://snapstudio.shop/blog/minimalism-furniture-history',
       'https://snapstudio.shop/blog/principles-minimalist-design',
     ]      
     }

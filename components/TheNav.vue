@@ -13,16 +13,7 @@ function toggleDropdown() {
       /></NuxtLink>
 
       
-      <div
-        class="absolute flex flex-col bg-white w-52 p-8 -translate-y-24 -translate-x-96 duration-300"
-        v-if="visible"
-      >
-      
-        <NuxtLink class="hover:text-red-200" to="/">Chairs</NuxtLink>
-        <NuxtLink class="hover:text-red-200" to="/">Tables</NuxtLink>
-        <NuxtLink class="hover:text-red-200" to="/">Built-ins</NuxtLink>
-        
-      </div>
+      <NuxtLink to="/products" class="hover:text-red-200">Products</NuxtLink>
       <NuxtLink class="hover:text-red-200" to="/perspectives">Perspectives</NuxtLink> 
       
       <NuxtLink to="/" class="hover:text-red-200">info</NuxtLink>
