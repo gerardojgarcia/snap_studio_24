@@ -37,14 +37,15 @@ export default defineNuxtConfig({
 
 
     sitemap: {
-    hostname: 'https://snapstudio.shop',
-    gzip: true,
-    routes: [
-      'https://snapstudio.shop/',
-      'https://snapstudio.shop/perspectives.vue',
-      'https://snapstudio.shop/blog.vue',
-      'https://snapstudio.shop/blog/minimalism-furniture-history',
-      'https://snapstudio.shop/blog/principles-minimalist-design',
+      hostname: 'https://snapstudio.shop',
+      gzip: true,
+      routes: [
+      '/',
+      '/perspectives.vue',
+      '/blog.vue',
+      '/blog/minimalism-furniture-history',
+      '/blog/principles-minimalist-design',
+      '/blog/eco-friendly-woods-minimal-design',
     ]      
     }
 
