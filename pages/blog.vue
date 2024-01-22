@@ -15,6 +15,11 @@ const posts = ref([
     title: "Eco-Friendly Woods for Modern Design",
     link: "/blog/eco-friendly-woods-minimal-design",
   },
+  {
+    id: 4,
+    title: "Concrete Furniture: Examining the Use of Concrete",
+    link: "/blog/concrete-furniture-minimalist-approach",
+  },
   
 ]);
 </script>

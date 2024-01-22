@@ -24,6 +24,14 @@ const posts = ref([
     content:
       "Exploring sustainable wood options for minimalist furniture.",
   },
+  {
+    id: 4,
+    title: "Concrete Furniture: Examining the Use of Concrete in Crafting Minimalist Furniture",
+    image: "/images/concrete_2.webp",
+    link: "/blog/concrete-furniture-minimalist-approach",
+    content:
+        "Examining the use of concrete in crafting minimalist furniture.",
+  },
 ]);
 </script>
 <template>
