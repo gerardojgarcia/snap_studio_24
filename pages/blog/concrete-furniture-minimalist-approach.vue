@@ -5,22 +5,22 @@
     <div class="blog_post_hero">
 
     </div>
-    <section class="blog_post_introduction mx-32 pt-16  ">
-      <div class="flex space-x-16">
+    <section class="blog_post_introduction md:mx-32 pt-16  ">
+      <div class="flex flex-col md:flex-row md:space-x-16">
 
-        <h1 class="text-6xl p-4 bg-white bg-opacity-75 w-2/3">Concrete Furniture: Examining the Use of Concrete in Crafting Minimalist Furniture</h1>
-        <div class="translate-y-32">
-          <p class=" w-3/4 text-3xl">In the realm of interior design, minimalist aesthetics have long been celebrated for their serene simplicity and understated elegance. Amidst this trend, a surprising material is making its mark: concrete. Once confined to construction sites and sidewalks, concrete is now being reimagined into sleek, durable furniture pieces. This blog post explores the unique allure of concrete furniture in minimalist design, examining its functional beauty and the innovative ways designers are embracing this robust material.</p></div>
+        <h1 class="text-2xl md:text-6xl p-4 bg-white bg-opacity-75 md:w-2/3">Concrete Furniture: Examining the Use of Concrete in Crafting Minimalist Furniture</h1>
+        <div class="md:translate-y-32">
+          <p class=" md:w-3/4 text-xl md:text-3xl">In the realm of interior design, minimalist aesthetics have long been celebrated for their serene simplicity and understated elegance. Amidst this trend, a surprising material is making its mark: concrete. Once confined to construction sites and sidewalks, concrete is now being reimagined into sleek, durable furniture pieces. This blog post explores the unique allure of concrete furniture in minimalist design, examining its functional beauty and the innovative ways designers are embracing this robust material.</p></div>
 
       </div>
 
 
 
     </section>
-    <section class="blog_post_body space-y-6 m-52 py-16 flex flex-col justify-center  ">
+    <section class="blog_post_body space-y-6 md:m-52 py-16 flex flex-col justify-center  ">
       <h2 class="text-4xl font-bold  mb-8">The Rise of Concrete in Minimalist Furniture</h2>
 
-      <div class="flex ">
+      <div class="flex flex-col md:flex-row">
         <div >
           <strong class="text-2xl">Why Concrete  </strong>
           <p class="w-3/4 text-xl m-auto pt-6"><strong>Durability and Longevity: </strong>Concrete's strength ensures furniture that lasts for years.   </p>
@@ -42,10 +42,10 @@
 
 
       <section class="py-12 flex m-auto">
-        <div>
+        <div >
           <h3 class="text-4xl font-bold mb-8" >The Concrete Dining Table</h3>
 
-          <div class="grid grid-cols-2">
+          <div class="grid md:grid-cols-2">
             <ul class="w-3/4 text-xl m-auto">
               <strong>Design Philosophy </strong>
               <li> Blending Form and Function: The design of the concrete dining table exemplifies a harmonious blend of aesthetics and utility. Emphasizing clean lines and a smooth finish, the table brings a modern edge to any dining area.</li>
@@ -77,7 +77,7 @@
       <h4 class="text-4xl font-bold mb-8" >Concrete Accent Pieces in Minimalist Decor</h4>
       <strong>In the minimalist interior design world, the use of concrete has transcended beyond basic furniture to include artistic planters, lamps, and other decorative items. These pieces are not merely functional; they double as standalone art forms, injecting a unique character into minimalist spaces.</strong>
 
-      <div class="grid grid-cols-2">
+      <div class="grid md:grid-cols-2">
         <ul class="w-3/4 text-xl m-auto">
           <strong>Functional Art in Concrete </strong>
           <li><NuxtImg src="/images/mango_furniture.webp" preload width="400px" class="m-auto py-16 " alt="image of bamboo being turned into furniture"/></li>
@@ -114,7 +114,7 @@
 
 
 
-      <div class="flex ">
+      <div class="flex  flex-col md:flex-row">
         <div >
           <strong class="text-2xl">Concrete: A Double-Edged Sword in Sustainability  </strong>
           <p class="w-3/4 text-xl m-auto pt-6"><strong>Environmental Impact of Cement Production: </strong>The manufacturing of cement, a key component of concrete, is known for its significant carbon footprint. It's one of the largest sources of CO2 emissions globally, raising concerns about its ecological impact.     </p>
@@ -132,7 +132,7 @@
 
 
 
-      <div class="flex">
+      <div class="flex flex-col md:flex-row">
         <div>
           <strong class="text-2xl ">The Upcycling Trend </strong>
           <p class="w-3/4 text-xl m-auto pt-6"><strong>Reclaimed Concrete:</strong>There's a growing trend of using reclaimed or recycled concrete for furniture and decor. This approach not only gives a second life to materials that would otherwise end up in landfills but also adds a unique character to each piece.</p>
@@ -157,7 +157,7 @@
     </section>
 
 
-    <section id="conclusion" class="mx-52">
+    <section id="conclusion" class="md:mx-52">
 
       <h7 class="font-bold text-4xl ">Concrete, in its stoic and sturdy nature, offers more than meets the eye.
       </h7>

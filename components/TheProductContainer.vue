@@ -1,4 +1,5 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
   <div class="product-container overflow-y-auto">
@@ -59,6 +60,18 @@
        <!-- Column 13  -->
        <div class="bg-gray-200 p-4 overflow-hidden">
         <nuxt-img src="/images/big_table_1.webp" class="md:hover:scale-125 duration-300 object-cover h-full w-full" format="webp" height="600px" width="500px"/>
+      </div>
+      <!-- Column 14  -->
+      <div class="bg-gray-200 p-4 overflow-hidden">
+        <nuxt-img src="/images/light_plywood1.webp" class="md:hover:scale-125 duration-300 object-cover h-full w-full" format="webp" height="600px" width="500px"/>
+      </div>
+      <!-- Column 15  -->
+      <div class="bg-gray-200 p-4 overflow-hidden">
+        <nuxt-img src="/images/big_table_2.webp" class="md:hover:scale-125 duration-300 object-cover h-full w-full" format="webp" height="600px" width="500px"/>
+      </div>
+      <!-- Column 16  -->
+      <div class="bg-gray-200 p-4 overflow-hidden">
+        <nuxt-img src="/images/dowel_stool_1.png" class="md:hover:scale-125 duration-300 object-cover h-full w-full" format="webp" height="600px" width="500px"/>
       </div>
     </div>
   </div>

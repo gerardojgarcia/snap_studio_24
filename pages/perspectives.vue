@@ -36,11 +36,11 @@ const posts = ref([
 </script>
 <template>
     
-  <div >
+  <div class="">
     <NuxtLink to="/" class="">back to home</NuxtLink>
       <div v-for="post in posts" :key="post.id" >
       
-        <div class="blog-post border-black border-2 mx-32 flex justify-evenly p-8 my-12">
+        <div class="blog-post border-black border-2 mx-2 md:mx-32 flex flex-col md:flex-row justify-evenly p-8 my-12">
           <div>
             <h1 class="font-bold text-2xl">{{ post.title }}</h1>
             <img :src="post.image" :alt="post.title" width="500px"  />

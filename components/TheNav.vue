@@ -13,7 +13,7 @@ function toggleDropdown() {
       /></NuxtLink>
 
       
-      <NuxtLink to="/products" class="hover:text-red-200">Products</NuxtLink>
+      <NuxtLink to="/products/chairs" class="hover:text-red-200">Products</NuxtLink>
       <NuxtLink class="hover:text-red-200" to="/perspectives">Perspectives</NuxtLink> 
       
       <NuxtLink to="/" class="hover:text-red-200">info</NuxtLink>
