@@ -32,6 +32,14 @@ const posts = ref([
     content:
         "Examining the use of concrete in crafting minimalist furniture.",
   },
+  {
+    id: 5,
+    title: "Finding a Cabinetmaker in East Los Angeles",
+    image: "/images/plywood_room3.webp",
+    link: "/blog/cabinetmaker-east-los-angeles",
+    content:
+        "A handy guide to help you choose your next cabinetmaker",
+  },
 ]);
 </script>
 <template>
