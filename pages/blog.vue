@@ -30,10 +30,9 @@ const posts = ref([
 </script>
 <template>
   <div class="grid grid-cols-4 h-screen">
+    <div class="fixed bg-white w-52 h-full top-0 z-10 col-start-1 col-span-1" >
 
-    <div class="fixed bg-white w-full h-full top-0 z-10 col-span-1" >
-        <h1 class="text-6xl">Perspectives</h1>
-        <header class="flex flex-col items-center justify-evenly">
+        <header class="flex flex-col items-center ml-2 justify-evenly">
           <NuxtLink to="/"
             ><img src="/images/snap_logo_3.png" alt="snapstudio logo" width="75px"
           /></NuxtLink>
@@ -44,7 +43,7 @@ const posts = ref([
     </div>
 
     <div class="col-start-2 col-span-3">
-      <NuxtPage class="h-3/4 mt-10" />
+      <NuxtPage  />
     </div>
 
   </div>

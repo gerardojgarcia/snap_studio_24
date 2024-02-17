@@ -7,7 +7,7 @@
     <div class="blog_post_hero">
 
     </div>
-    <section class="blog_post_introduction mx-32 pt-16  ">
+    <section class="blog_post_introduction  pt-16  ">
       <div class="flex space-x-16">
 
         <h1 class="text-6xl p-4 bg-white bg-opacity-75 w-2/3">Finding a Cabinetmaker in East Los Angeles</h1>
@@ -19,7 +19,7 @@
 
 
     </section>
-    <section class="blog_post_body space-y-6 m-52 py-16 flex flex-col justify-center  ">
+    <section class="blog_post_body space-y-6 m-16 py-16 flex flex-col justify-center  ">
       <h2 class="text-4xl font-bold  mb-8">Identify Your Requirements: </h2>
       <p class="w-3/4 text-xl m-auto">Determine the style and functionality you need. This could range from traditional to contemporary designs or from basic storage to specialized cabinetry. </p>
 
@@ -126,7 +126,7 @@
 
   <h7>List of Cabinet Makers in East Los Angeles </h7>
 
-  <ul>Village Woodcrafts
+  <ul class="py-8">Village Woodcrafts
 
   <li>Years in Business: 76</li>
     <li>Address: 5560 Alhambra Ave, Los Angeles, CA 90032</li>
@@ -134,14 +134,14 @@
 
   </ul>
 
-  <ul>Santhon Tino
+  <ul class="py-8">Santhon Tino
 
     <li>Years in Business: 56</li>
     <li>Address: 777 E Rosecrans Ave, Los Angeles, CA 90032</li>
 
   </ul>
 
-  <ul>Cooper Pacific Kitchens
+  <ul class="py-8">Cooper Pacific Kitchens
 
     <li>Years in Business: 30</li>
     <li>Address: 8687 Melrose Ave, West Hollywood, CA 90069</li>
@@ -149,7 +149,7 @@
   </ul>
 
 
-  <ul>Hammerhead
+  <ul class="py-8">Hammerhead
 
     <li>Years in Business: 30</li>
     <li>Address: 2463 Fletcher Dr, Los Angeles, CA 90039</li>
@@ -157,7 +157,7 @@
   </ul>
 
 
-  <ul>Advance Wood Shop
+  <ul class="py-8">Advance Wood Shop
 
     <li>Years in Business: 34</li>
     <li>Address: 4941 York Blvd, Los Angeles CA, 90065</li>
@@ -165,7 +165,7 @@
   </ul>
 
 
-  <ul>Artistic Concepts
+  <ul class="py-8">Artistic Concepts
 
     <li>Years in Business: 34</li>
     <li>Address: 3293 N San Fernando Rd, Los Angeles, CA 90065</li>
@@ -173,7 +173,7 @@
   </ul>
 
 
-  <ul>District Millworks
+  <ul class="py-8">District Millworks
 
     <li>Years in Business: 12</li>
     <li>Address: 2860 E Pico Blvd, Los Angeles, CA 90023</li>
@@ -181,7 +181,7 @@
   </ul>
 
 
-  <ul>Ideal Cabinets Inc
+  <ul class="py-8">Ideal Cabinets Inc
 
     <li>Years in Business: 39</li>
     <li>Address:  5110 Alhambra Ave, Los Angeles, CA 90032</li>
@@ -189,7 +189,7 @@
   </ul>
 
 
-  <ul>Olympic Cabinets
+  <ul class="py-8">Olympic Cabinets
 
     <li>Years in Business: 17</li>
     <li>Address: 3381 E Olympic Blvd, Los Angeles, CA 90023</li>
@@ -197,7 +197,7 @@
   </ul>
 
 
-  <ul>Santhon Tino
+  <ul class="py-8">Santhon Tino
 
     <li>Years in Business: NA</li>
     <li>Address: 3293 N San Fernando Rd, Los Angeles, CA 90065</li>

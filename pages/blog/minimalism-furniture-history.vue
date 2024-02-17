@@ -5,7 +5,7 @@
     <div class="blog_post_hero">
 
     </div>
-    <section class="blog_post_introduction mx-32 pt-16  ">
+    <section class="blog_post_introduction  pt-16  ">
       <div class="flex space-x-16">
 
         <h1 class="text-6xl p-4 bg-white bg-opacity-75 w-2/3">Minimalism in Furniture: A Historical Perspective</h1>
@@ -17,7 +17,7 @@
     
     
     </section>
-    <section class="blog_post_body space-y-6 m-52 py-16 flex flex-col justify-center  ">
+    <section class="blog_post_body space-y-6 m-32 py-16 flex flex-col justify-center  ">
     <h2 class="text-4xl font-bold  mb-8">Origins and Early Influences</h2>
     <p class="w-3/4 text-xl m-auto">Minimalism in furniture can be traced back to the early 20th century, coinciding with the modernist movement in art and architecture. The Bauhaus school in Germany, founded by Walter Gropius in 1919, played a pivotal role in this regard. </p>
     <p class="w-3/4 text-xl m-auto">Emphasizing functionality and simplicity, Bauhaus designers like Marcel Breuer and Ludwig Mies van der Rohe introduced furniture that was stark in its aesthetic yet highly practical. This period saw the emergence of steel, glass, and concrete as favored materials, reflecting the modernist ethos of "form follows function."</p>
