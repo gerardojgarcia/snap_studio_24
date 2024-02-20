@@ -2,11 +2,11 @@
 const product = ref([
 
 {
-  id: 'ss-ch-2',
-  name: 'Chair 2',
+  id: 'ss-stshf-1',
+  name: 'Stack Shelf',
   product_short_descr: 'Chair, Ply',
   date: '2022',
-  images: ['/images/snapchair2_2.webp', "/images/snapchair2_3.png", "/images/chair_23_3.png"],
+  images: ['/images/stackshelf/IMG_0434_01.png', "/images/stackshelf/IMG_0437_01.png", "/images/stackshelf/IMG_0435_01.png"],
   product_long_descr: [{descr: "pine, walnut dowels"}, {descr: 'L24in D11in H32in'}, {descr: 'handmade'}]
 }
 
@@ -23,11 +23,15 @@ const product = ref([
 <template>
   <div id="product" class="flex flex-col" v-for="item in product" :key="item.id">
     <div class="h-1/2 pb-52"><div class="product-header flex justify-between border-y-4 border-black py-2 px-4"><p class="product-id">[ {{item.id}} ]</p><p class="product-name">{{item.name}}</p><p class="product-short-descr">{{item.product_short_descr}}</p><p class="product-year">
-      {{ item.date }}</p></div>
+      {{ item.date }}</p>
+      </div>
       <div class="product-details flex justify-between pt-2"  v-for="materials in item.product_long_descr" :key="materials.descr">
     <div class="item-materials w-1/2 pl-2 flex flex-col " >
 
-    <p>{{ materials.descr }}</p></div>
+    <p>{{ materials.descr }}</p>
+  
+  
+     </div>
   
   
         <div class="item-descr w-1/2  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consequuntur eius eligendi labore neque repellat!</div>

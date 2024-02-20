@@ -2,11 +2,11 @@
 const product = ref([
 
 {
-  id: 'ss-ch-2',
-  name: 'Chair 2',
-  product_short_descr: 'Chair, Ply',
-  date: '2022',
-  images: ['/images/snapchair2_2.webp', "/images/snapchair2_3.png", "/images/chair_23_3.png"],
+  id: 'ss-st-1',
+  name: 'Stool 1',
+  product_short_descr: 'Stool, Ply',
+  date: '2023',
+  images: ['/images/dowel_stool_1.png', "/images/dowel_stool_2.png", ],
   product_long_descr: [{descr: "pine, walnut dowels"}, {descr: 'L24in D11in H32in'}, {descr: 'handmade'}]
 }
 
@@ -27,8 +27,9 @@ const product = ref([
       <div class="product-details flex justify-between pt-2"  v-for="materials in item.product_long_descr" :key="materials.descr">
     <div class="item-materials w-1/2 pl-2 flex flex-col " >
 
-    <p>{{ materials.descr }}</p></div>
-  
+    <p>{{ materials.descr }}</p>
+
+    </div>
   
         <div class="item-descr w-1/2  ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consequuntur eius eligendi labore neque repellat!</div>
   

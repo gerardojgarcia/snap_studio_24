@@ -25,6 +25,11 @@ const posts = ref([
     title: "Cabinetmaker in East Los Angeles",
     link: "/blog/cabinetmaker-east-los-angeles",
   },
+  {
+    id: 5,
+    title: "Minimalist Design for Small Spaces",
+    link: "/blog/minimal-design-small-spaces",
+  },
   
 ]);
 </script>
@@ -37,7 +42,7 @@ const posts = ref([
             ><img src="/images/snap_logo_3.png" alt="snapstudio logo" width="75px"
           /></NuxtLink>
           <nav v-for="post in posts">
-            <NuxtLink :to="post.link" class="hover:text-red-400">{{ post.title }}</NuxtLink>
+            <NuxtLink :to="post.link" class="hover:text-red-400 focus:text-red-500">{{ post.title }}</NuxtLink>
           </nav>
         </header>
     </div>

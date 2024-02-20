@@ -40,6 +40,14 @@ const posts = ref([
     content:
         "A handy guide to help you choose your next cabinetmaker",
   },
+  {
+    id: 6,
+    title: "Minimalist Design for Small Spaces",
+    image: "/images/plywood_room_1.webp",
+    link: "/blog/minimal-design-small-spaces",
+    content:
+        "Tips for selecting and arranging minimalist furniture in small living spaces.",
+  },
 ]);
 </script>
 <template>

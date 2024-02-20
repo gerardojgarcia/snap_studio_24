@@ -2,8 +2,8 @@
 </script>
 <template>
   <div class="flex flex-col">
-    <nav class="space-x-4 h-10">
-      <NuxtLink to="/" class="hover:text-red-200 cursor-pointer">back to home</NuxtLink>
+    <nav class="md:space-x-4 h-10">
+      <NuxtLink to="/" class=" hover:text-red-200 cursor-pointer">back to home</NuxtLink>
 
       <NuxtLink to="/products/chairs" class="hover:text-red-200 focus:text-red-200 cursor-pointer">Chairs</NuxtLink>
       <NuxtLink to="/products/tables" class="hover:text-red-200 focus:text-red-200 cursor-pointer">Tables</NuxtLink>
