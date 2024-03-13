@@ -220,7 +220,7 @@
 
 <style scoped>
 .blog_post_hero {
-  background-image: url('/images/history_of_minimalism/history_of_minimailsim_hero.webp');
+  background-image: url('/images/cabinet_install.webp');
   background-size: cover;
   background-position: center;
   height: 50vh;
