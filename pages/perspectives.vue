@@ -48,14 +48,30 @@ const posts = ref([
     content:
         "Tips for selecting and arranging minimalist furniture in small living spaces.",
   },
+  {
+    id: 7,
+    title: "Softwoods: A Minimalist's Perspective",
+    image: "/images/softwood_1.webp",
+    link: "/blog/softwoods-minimalist-perspective",
+    content:
+        "Analyzing the use of softwoods in creating minimalist furniture pieces.",
+  },
+  {
+    id: 8,
+    title: "Custom Plywood Furniture: A Buyer’s Guide",
+    image: "/images/workshop-1.webp",
+    link: "/blog/custom-plywood-furniture-buyers-guide",
+    content:
+        "Explore the benefits, process, and what to look for in custom plywood furniture, offering a starting point for potential customers.",
+  },
 ]);
 </script>
 <template>
-    
+
   <div class="">
     <NuxtLink to="/" class="">back to home</NuxtLink>
       <div v-for="post in posts" :key="post.id" >
-      
+
         <div class="blog-post border-black border-2 mx-2 md:mx-32 flex flex-col md:flex-row justify-evenly p-8 my-12">
           <div>
             <h1 class="font-bold text-2xl">{{ post.title }}</h1>

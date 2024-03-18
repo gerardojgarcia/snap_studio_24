@@ -26,11 +26,21 @@ const posts = ref([
     link: "/blog/cabinetmaker-east-los-angeles",
   },
   {
-    id: 5,
+    id: 6,
     title: "Minimalist Design for Small Spaces",
     link: "/blog/minimal-design-small-spaces",
   },
-  
+  {
+    id: 7,
+    title: "Softwood in Minimalist Design",
+    link: "/blog/softwoods-minimalist-perspective",
+  },
+  {
+    id: 8,
+    title: "Custom Plywood Furniture: A Buyer’s Guide",
+    link: "/blog/custom-plywood-furniture-buyers-guide",
+  },
+
 ]);
 </script>
 <template>
