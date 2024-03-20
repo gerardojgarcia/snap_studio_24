@@ -12,10 +12,10 @@ function toggleDropdown() {
         ><nuxt-img src="favicon.png" width="50px" height="50px" alt="snapstudio logo"
       /></NuxtLink>
 
-      
+
       <NuxtLink to="/products/chairs" class="hover:text-red-200">Products</NuxtLink>
-      <NuxtLink class="hover:text-red-200" to="/perspectives">Perspectives</NuxtLink> 
-      
+      <NuxtLink class="hover:text-red-200" to="/perspectives">Perspectives</NuxtLink>
+
       <NuxtLink to="/" class="hover:text-red-200">info</NuxtLink>
     </nav>
   </header>

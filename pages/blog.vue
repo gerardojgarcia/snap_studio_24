@@ -40,7 +40,11 @@ const posts = ref([
     title: "Custom Plywood Furniture: A Buyer’s Guide",
     link: "/blog/custom-plywood-furniture-buyers-guide",
   },
-
+  {
+    id: 9,
+    title: "Crafting Custom Plywood Desks",
+    link: "/blog/crafting-custom-plywood-desks",
+  },
 ]);
 </script>
 <template>
@@ -63,3 +67,9 @@ const posts = ref([
 
   </div>
 </template>
+<style>
+.router-link-active {
+    color: rgb(198, 142, 142) ;
+}
+
+</style>

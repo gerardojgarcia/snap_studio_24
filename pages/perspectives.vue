@@ -64,6 +64,14 @@ const posts = ref([
     content:
         "Explore the benefits, process, and what to look for in custom plywood furniture, offering a starting point for potential customers.",
   },
+  {
+    id: 9,
+    title: "Crafting Custom Plywood Desks",
+    image: "/images/plywood-desk-1.webp",
+    link: "/blog/crafting-custom-plywood-desks",
+    content:
+        "Offer design ideas for custom plywood desks that enhance productivity and fit perfectly into any workspace.",
+  },
 ]);
 </script>
 <template>
@@ -74,10 +82,10 @@ const posts = ref([
 
         <div class="blog-post border-black border-2 mx-2 md:mx-32 flex flex-col md:flex-row justify-evenly p-8 my-12">
           <div>
-            <h1 class="font-bold text-2xl">{{ post.title }}</h1>
-            <img :src="post.image" :alt="post.title" width="500px"  />
+            <h1 class="font-bold text-2xl w-96">{{ post.title }}</h1>
+            <img :src="post.image" :alt="post.title" width="600px" height="500px" />
           </div>
-          <div>
+          <div class="mx-16">
             <p class="mb-8">{{ post.content }}</p>
             <NuxtLink :to="post.link" class="hover:green-200 bg-black text-white p-4">Read more</NuxtLink>
           </div>
@@ -85,3 +93,12 @@ const posts = ref([
       </div>
   </div>
 </template>
+
+<style>
+
+img {
+    max-width: 600px;
+    max-height: 500px;
+}
+
+</style>
