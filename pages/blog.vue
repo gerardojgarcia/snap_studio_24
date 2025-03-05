@@ -45,31 +45,35 @@ const posts = ref([
     title: "Crafting Custom Plywood Desks",
     link: "/blog/crafting-custom-plywood-desks",
   },
+  {
+    id: 10,
+    title: "The Cost of Customization",
+    link: "/blog/cost-of-custom-plywood-furniture",
+  },
 ]);
 </script>
 <template>
   <div class="grid grid-cols-4 h-screen">
-    <div class="fixed bg-white w-52 h-full top-0 z-10 col-start-1 col-span-1" >
-
-        <header class="flex flex-col items-center ml-2 justify-evenly">
-          <NuxtLink to="/"
-            ><img src="/images/snap_logo_3.png" alt="snapstudio logo" width="75px"
-          /></NuxtLink>
-          <nav v-for="post in posts">
-            <NuxtLink :to="post.link" class="hover:text-red-400 focus:text-red-500">{{ post.title }}</NuxtLink>
-          </nav>
-        </header>
+    <div class="fixed bg-white w-52 h-full top-0 z-10 col-start-1 col-span-1">
+      <header class="flex flex-col items-center ml-2 justify-evenly">
+        <NuxtLink to="/"
+          ><img src="/images/snap_logo_3.png" alt="snapstudio logo" width="75px"
+        /></NuxtLink>
+        <nav v-for="post in posts">
+          <NuxtLink :to="post.link" class="hover:text-red-400 focus:text-red-500">{{
+            post.title
+          }}</NuxtLink>
+        </nav>
+      </header>
     </div>
 
     <div class="col-start-2 col-span-3">
-      <NuxtPage  />
+      <NuxtPage />
     </div>
-
   </div>
 </template>
 <style>
 .router-link-active {
-    color: rgb(198, 142, 142) ;
+  color: rgb(198, 142, 142);
 }
-
 </style>
